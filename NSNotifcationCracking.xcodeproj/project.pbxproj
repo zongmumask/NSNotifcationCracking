@@ -15,6 +15,9 @@
 		8EA16B1F1CCB103F00B15E0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA16B1D1CCB103F00B15E0A /* LaunchScreen.storyboard */; };
 		8EA16B2A1CCB103F00B15E0A /* NSNotifcationCrackingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA16B291CCB103F00B15E0A /* NSNotifcationCrackingTests.m */; };
 		8EA16B351CCB103F00B15E0A /* NSNotifcationCrackingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA16B341CCB103F00B15E0A /* NSNotifcationCrackingUITests.m */; };
+		8EA16B4F1CCB1B6800B15E0A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA16B4D1CCB1B6800B15E0A /* SecondViewController.m */; };
+		8EA16B531CCB20E600B15E0A /* HHNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA16B521CCB20E600B15E0A /* HHNotification.m */; };
+		8EA16B561CCB20F900B15E0A /* HHNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA16B551CCB20F900B15E0A /* HHNotificationCenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		8EA16B301CCB103F00B15E0A /* NSNotifcationCrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSNotifcationCrackingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA16B341CCB103F00B15E0A /* NSNotifcationCrackingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSNotifcationCrackingUITests.m; sourceTree = "<group>"; };
 		8EA16B361CCB103F00B15E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EA16B4C1CCB1B6800B15E0A /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8EA16B4D1CCB1B6800B15E0A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8EA16B511CCB20E600B15E0A /* HHNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHNotification.h; sourceTree = "<group>"; };
+		8EA16B521CCB20E600B15E0A /* HHNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHNotification.m; sourceTree = "<group>"; };
+		8EA16B541CCB20F900B15E0A /* HHNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHNotificationCenter.h; sourceTree = "<group>"; };
+		8EA16B551CCB20F900B15E0A /* HHNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHNotificationCenter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				8EA16B131CCB103F00B15E0A /* AppDelegate.m */,
 				8EA16B151CCB103F00B15E0A /* ViewController.h */,
 				8EA16B161CCB103F00B15E0A /* ViewController.m */,
+				8EA16B4C1CCB1B6800B15E0A /* SecondViewController.h */,
+				8EA16B4D1CCB1B6800B15E0A /* SecondViewController.m */,
+				8EA16B511CCB20E600B15E0A /* HHNotification.h */,
+				8EA16B521CCB20E600B15E0A /* HHNotification.m */,
+				8EA16B541CCB20F900B15E0A /* HHNotificationCenter.h */,
+				8EA16B551CCB20F900B15E0A /* HHNotificationCenter.m */,
 				8EA16B181CCB103F00B15E0A /* Main.storyboard */,
 				8EA16B1B1CCB103F00B15E0A /* Assets.xcassets */,
 				8EA16B1D1CCB103F00B15E0A /* LaunchScreen.storyboard */,
@@ -270,7 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EA16B4F1CCB1B6800B15E0A /* SecondViewController.m in Sources */,
 				8EA16B171CCB103F00B15E0A /* ViewController.m in Sources */,
+				8EA16B531CCB20E600B15E0A /* HHNotification.m in Sources */,
+				8EA16B561CCB20F900B15E0A /* HHNotificationCenter.m in Sources */,
 				8EA16B141CCB103F00B15E0A /* AppDelegate.m in Sources */,
 				8EA16B111CCB103F00B15E0A /* main.m in Sources */,
 			);
