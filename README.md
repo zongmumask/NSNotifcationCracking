@@ -103,7 +103,7 @@
 ```
 总结：iOS中不仅通知中心使用了观察者，KVO也是基于观察者模式实现的。整个项目的源码已经放在了GitHub上[项目源码](https://github.com/zongmumask/NSNotifcationCracking/tree/master)。如源码中有错误，欢迎指正。
 
-
+Hacked by linsir.
 
 
 
